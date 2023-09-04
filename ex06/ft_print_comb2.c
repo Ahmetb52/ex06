@@ -19,7 +19,7 @@ void	ft_putchar(char c)
 
 void	print_int(int i)
 {
-	ft_putchar(48 + i);
+	ft_putchar('0' + i);
 }
 
 void	ft_print(int a, int b)
